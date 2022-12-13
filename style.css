@@ -1,0 +1,194 @@
+
+body{
+    background-image: url(/img/toyotaroad1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0;
+    height: 100%;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul a{
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 40px;
+    margin-top: -80px;
+    display: inline-block;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color:  white;
+}
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+main{
+    width: 100%;
+    height: 500px;
+    background-image: url(/img/oldsupramkedit1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main div h1{
+    font-size: 1000%;
+    padding-top: 5%;
+    padding-left: 5%;
+    letter-spacing: 90px;
+}
+.hero-text{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Bebas Neue',cursive;
+    font-size: xx-large;
+}
+
+.border{
+    border-right:10px solid white ;
+    border-bottom: 10px solid white;
+    border-left: 10px solid white;
+    border-top: 10px solid white;
+    border: 1.5px solid white;
+    border-radius: 30px;
+}
+
+section{
+    width: 30%;
+    height: 150%;
+    margin-bottom: 100px;
+    color: white;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: 70px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+    float: right;
+}
+aside{
+    color: white;
+    float: left;
+    margin-left: 3%;
+    height: 375px;
+    border: 1.0px solid white;       
+    text-align: center;
+}
+.horizontal-snap {
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    height: calc(180px + 1rem);
+    padding: 1rem;
+    max-width: 480px;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+  }
+  
+.horizontal-snap > a {
+    scroll-snap-align: center;
+  }
+  
+.horizontal-snap img {
+    width: 180px;
+    max-width: none;
+    object-fit: contain;
+    border-radius: 1rem;
+  }
+
+.topButton{
+    position: fixed;
+    right: 0;
+    bottom: 25%;
+    margin: 30px;
+    
+}
+.topButton a{
+    padding: 8px 15px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    
+}
+.topButton a:hover{
+    background-color: white;
+}
+.topButton a:active{
+    background-color: grey;
+}
+footer{
+    width: 100%;
+    height: 200px;
+
+}
+.footerCol{
+    width: 33%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+.columnTwo{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.footerCol ul{
+    list-style-type: none;
+    position: relative;
+    top: 20%;
+}
+.footerCol ul a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 25px;
+}
+.footerCol p{
+    color: #fff;
+    position: relative;
+    top: 50%;
+}
+.footerCol a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 45%;
+    margin: 20px;
+}
