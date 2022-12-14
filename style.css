@@ -28,6 +28,11 @@ nav ul a{
     margin-top: -80px;
     display: inline-block;
 }
+nav ul li{
+    font-family:'Bebas Neue',cursive ;
+    font-size: 30px;
+    padding-top: 30px;
+}
 
 .hover-underline-animation {
     display: inline-block;
@@ -85,27 +90,65 @@ main div h1{
     border: 1.5px solid white;
     border-radius: 30px;
 }
-
+article{
+    margin-right: 60px;
+}
+article section h3{
+    font-family: 'Bebas Neue',cursive;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+article section p{
+    font-size:25px ;
+}
 section{
-    width: 30%;
+    width: 60%;
     height: 150%;
     margin-bottom: 100px;
     color: white;
+    margin-top: -20px ;
     text-align: center;
-    padding-left: 60px;
-    padding-right: 60px;
     position: 70px;
     font-family: 'Bebas Neue', cursive;
     font-size: larger;
     float: right;
 }
-aside{
+.section h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+aside h3{
     color: white;
-    float: left;
-    margin-left: 3%;
-    height: 375px;
-    border: 1.0px solid white;       
-    text-align: center;
+    font-family: 'Bebas Neue' , cursive;
+    margin-left: 7.5%;
+    margin-top: 25px;
+    font-size: 50px;
+    
+}
+.iframe-container iframe{
+    margin-left: 85px;
+    margin-top: 10px;
+}
+.iframe-container2 iframe{
+    margin-left: 85px;
+    margin-top: 200px;
+}
+.iframe-container3 iframe{
+    margin-left: 85px;
+    margin-top: 230px;
+}
+.iframe-container4 iframe{
+    margin-left: 85px;
+    margin-top: 165px;
+}
+.iframe-container5 iframe{
+    margin-left: 85px;
+    margin-top: 165px;
+}
+.section2{
+    color: white;
+    
+
 }
 .horizontal-snap {
     margin: 0 auto;
@@ -118,7 +161,7 @@ aside{
     overflow-y: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
-  }
+}
   
 .horizontal-snap > a {
     scroll-snap-align: center;
@@ -131,64 +174,11 @@ aside{
     border-radius: 1rem;
   }
 
-.topButton{
-    position: fixed;
-    right: 0;
-    bottom: 25%;
-    margin: 30px;
-    
-}
-.topButton a{
-    padding: 8px 15px;
-    background-color: white;
-    border: 2px solid white;
-    border-radius: 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    
-}
-.topButton a:hover{
-    background-color: white;
-}
-.topButton a:active{
-    background-color: grey;
-}
-footer{
-    width: 100%;
-    height: 200px;
 
-}
-.footerCol{
-    width: 33%;
-    height: 200px;
-    float: left;
+footer h3{
+    color: white;
+    font-family:'Bebas Neue' , cursive;
+    font-size: 100px;
     text-align: center;
-}
-.columnTwo{
-    border-right: 1px solid #fff;
-    border-left: 1px solid #fff;
-}
-.footerCol ul{
-    list-style-type: none;
-    position: relative;
-    top: 20%;
-}
-.footerCol ul a{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 25px;
-}
-.footerCol p{
-    color: #fff;
-    position: relative;
-    top: 50%;
-}
-.footerCol a{
-    color: #fff;
-    text-decoration: none;
-    position: relative;
-    top: 45%;
-    margin: 20px;
+    padding-top: 10%;
 }
